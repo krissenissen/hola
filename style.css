@@ -1,0 +1,183 @@
+html,body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif, Verdana, Geneva;
+      scrollbar-face-color: #000000;
+  scrollbar-shadow-color: #2D2C4D;
+  scrollbar-highlight-color:#7D7E94;
+  scrollbar-3dlight-color: #7D7E94;
+  scrollbar-darkshadow-color: #2D2C4D;
+  scrollbar-track-color: #7D7E94;
+  scrollbar-arrow-color: #C1C1D1; 
+}
+#head{
+    width: 100%;
+    height: 170px;
+    background-color: #000000;
+    
+}
+#logga{
+    padding-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 140px;
+
+}
+p{
+   margin: 50px 25px 30px 25px;
+}
+.conteiner{
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 33%;
+    height: 500px;
+    float: left;
+}
+.erbjudande{
+    
+}
+#Om_butiken{
+    text-align: center;
+}
+.Om_butiken_img{
+    display: block;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #000;
+}
+#Om_butiken_text{
+    text-align: justify;
+    line-height: 1.4em;
+    font-size: 1.2em;
+}
+a.back-to-top {
+	display: none;
+	width: 60px;
+	height: 60px;
+	text-indent: -9999px;
+	position: fixed;
+	z-index: 999;
+	right: 20px;
+	bottom: 20px;
+	background: #000 url(../../img/up-arrow.png) no-repeat center 43%;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+a:hover.back-to-top {
+	background-color: #000;
+}
+footer{
+    background: #202020;
+    padding: 30px 0;
+    clear: both;
+}
+footer:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.wrapper{
+    width: 96%;
+    max-width: 12000px;
+    margin: 0 auto;
+    padding: 0 2%;
+    height: auto;
+    float: left;
+}
+footer h4{
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+footer ul{
+    float: left;
+    width: 25%;
+    list-style-type: none;
+}
+footer li{
+    color: #aaa;
+    width: 80%;
+    margin: 20px 0;
+    font-size: 14px;
+    line-height: 1.6em;
+}
+#copyright{
+    clear: both;
+    padding-top: 30px;
+    margin-top: 30px;
+    float: left;
+    width: 100%;
+    border-top: 2px solid #333;
+    color: #999;
+    font-size: 14px;
+}
+nav{
+    display: none;
+}
+a{
+    text-decoration: none;
+}
+
+nav ul{
+    background-color: #222;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+nav ul li{
+    list-style: none;
+    float: none;
+    border-bottom: 1px solid #000;
+}
+nav ul li a:hover{
+    background-color: #070707;
+    
+}
+nav ul li a{
+    padding: 20px;
+    color: white;
+    display: block;
+    padding: 20px;
+}
+ul li a.active 
+{
+  background-color: #070707;
+}
+.menu-trigger{
+    display: block;
+    background-color: #151515;
+    color: white;
+    display: block;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.7em;
+    
+}
+.fixed{
+    position: fixed;
+    z-index: 100000;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.fixed1{
+    padding-top: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+}
+.menu-placeholder{
+    margin: 0 0 0px 0;
+}
+.fixed .menu-inner{
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #151515; 
+}
